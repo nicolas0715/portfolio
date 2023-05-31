@@ -92,6 +92,10 @@ header nav ul li .cv:hover{
 }
 
 /*---------- Article 1 ----------*/
+main .seccion1{
+    text-align: center;
+    margin-top: 50px;
+}
 main .seccion{
     text-align: center;
     margin-top: 50px;
@@ -111,10 +115,15 @@ main .seccion{
 .vertical-animation span:last-child{
     margin-left: 25px;
 }
-
+#intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 #intro .imagen{
     height: 250px;
-    margin: 30px 0px;
+    width: 250px;
+    margin: 30px auto;
 }
 /*---------- Article 2 ----------*/
 #intro2{
@@ -175,6 +184,25 @@ main .seccion{
     flex-direction: column;
     align-items: center;
 }
+.proyectos h2{
+    margin: 0px 0px 40px 0px;
+    font-size: 30px;
+}
+.proyectos a{
+    text-decoration: none;
+    background-color: white;
+    padding: 5px 15px;
+    margin: 20px;
+    border-radius: 10px;
+    color: black;
+    font-size: 25px;
+}
+.proyectos a:hover{
+    transform: scale(1.1);
+    background-color: black;
+    transition: transform .2s, background-color .2s;
+    color: white;
+}
 .proyects{
     display: flex;
     justify-content: center;
@@ -192,6 +220,7 @@ main .seccion{
     justify-content: space-around;
     border-radius: 30px;
     box-shadow: 2px 2px 4px black;
+    background-color: whitesmoke;
 }
 .proyect h4{
     text-align: left;
@@ -203,13 +232,15 @@ main .seccion{
 }
 .skill-on{
     padding: 5px;
-    filter: drop-shadow(0px 2px 3px rgba(255, 255, 255, 0.9));
+    filter: drop-shadow(0px 2px 3px rgba(122, 122, 122, 0.9));
 }
 .skill-off{
     padding: 5px;
     display: none;
 }
-
+#intro2 a{
+    text-decoration: none;
+}
 
 
 
@@ -257,6 +288,10 @@ hr{
     list-style-type: none;
     display: flex;
     align-items: center;
+}
+#fd1 ul li a{
+    text-decoration: none;
+    color: white;
 }
 
 .redes-imgs{
