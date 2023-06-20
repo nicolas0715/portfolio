@@ -2,4 +2,4 @@
 
 <h2>Work in progress</h2>
 
-<li> Faltan agregar los proyectos</li>
+<li> Faltan editar los proyectos</li>
